@@ -1,0 +1,20 @@
+{
+  "name": "prodblem_6_crude_resource",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^4.17.21",
+    "@types/fs-extra": "^11.0.4",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.4"
+  },
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only src/main.ts"
+  }
+}
